@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Style all -->
+    <link rel="stylesheet" href="CSS/all.css">
+    <!-- normalize Style -->
+    <link rel="stylesheet" href="CSS/normalize.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <!-- Style this page-->
+    <link rel="stylesheet" href="css/cart-style.css">
+    <title>Cart page</title>
+    <style>
+        section p{
+            color: black;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header start -->
+    <header>
+        <div class="first-div-translate">
+            <p>Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%! <span><a href="Index.html" style="color: white; padding-left: 7px;"><strong>ShopNow</strong></a></span>
+                <form>
+                    <div>
+                        <select class="English-translate">
+                            <option>English</option>
+                            <option value="1">Arabic</option>
+                        </select>
+                    </div>
+                </form>
+            </p>
+        </div>
+        <nav class="topnav">
+            <div class="parent1">
+                <h1>Exclusive</h1>
+            </div>
+            <div class="parent2">
+                <ul>
+                    <li><a href="Index.html">Home</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="sign up.html">Sign Up</a></li>
+                </ul>
+            </div>
+            <div class="search-container">
+                <form action="/action_page.php">
+                    <input type="text" placeholder="What are you looking for?" name="search">
+                    <button type="submit"><i class="fa-solid fa-magnifying-glass search-submit"></i></button>
+                </form>
+                <i class="fa-regular fa-heart search-submit"></i>
+                <i class="fa-solid fa-cart-shopping search-submit"></i>
+                <div class="dropdown">
+                    <i class="fa-regular fa-user search-submit dropbtn"></i>
+                    <div class="dropdown-content">
+                        <a href="Account.html"><i class="fa-regular fa-user"></i> Manage My Account</a>
+                        <a href="CheckOut.html"><i class="fa-solid fa-envelopes-bulk"></i> My Order</a>
+                        <a href="Cart.html"><i class="fa-regular fa-circle-xmark"></i> My Cancellations</a>
+                        <a href="WishList.html"><i class="fa-regular fa-star"></i> My Reviews</a>
+                        <a href="sign up.html"><i class="fa-solid fa-arrow-right-from-bracket"></i> Logout</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Header end -->
+
+    <hr>
+    <!-- Hero Start -->
+    <section>
+        <div class="container">
+            <div class="logo">
+                <a href="Index.html" style="color: gray;">Home /</a>
+                <a href="Cart.html">Cart</a>
+            </div>
+            <div>
+                <form>
+                    <table>
+                        <thead class="products">
+                            <tr>
+                                <th>Product</th>
+                                <th>Price</th>
+                                <th>Quantity</th>
+                                <th>Subtotal</th>
+                            </tr>
+                        </thead>
+                        <tbody class="products">
+                            <tr>
+                                <td style="display: flex; align-items: center; justify-content: space-around;">
+                                    <img src="Images/g27cq4-500x500 1.png" alt="">
+                                    <p>LCD Monitor</p>
+                                </td>
+                                <td>$650</td>
+                                <td>
+                                    <input type="number" min="01" value="1">
+                                </td>
+                                <td>$650</td>
+                            </tr>
+                        </tbody>
+                        <tbody class="products">
+                            <tr>
+                                <td style="display: flex; align-items: center; justify-content: space-around;">
+                                    <img src="Images/g92-2-500x500 1.png" alt="">
+                                    <p>H1 Gamepad</p>
+                                </td>
+                                <td>$550</td>
+                                <td>
+                                    <input type="number" min="02" value="2">
+                                </td>
+                                <td>$1100</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </form>
+            </div>
+            
+            <div class="prod2">
+                <button>Return To Shop</button>
+                <button style="float: right;">Update Cart</button>
+            </div>
+            <div class="prod3">
+                <input type="text" placeholder="Coupon Code">
+                <button class="btn-red">Apply Coupon</button>
+            </div>
+            <div class="absolutediv">
+                <h3>Cart Total</h3>
+                <div>
+                    <text>Subtotal</text>
+                    <text>$1750</text>
+                </div>
+                <div>
+                    <text>Shipping:</text>
+                    <text>Free</text>
+                </div>
+                <div style="border: none;">
+                    <text>Total:</text>
+                    <text>$1750</text>
+                </div>
+                <button class="btn-red">Procees to checkout</button>
+            </div>
+        </div>
+    </section>
+    <!-- Hero end -->
+
+    <!-- Footer start -->
+    <footer>
+        <div class="container">
+
+            <!-- Exclusive footer start-->
+            <div class="footer-item">
+                <a href=""><h1>Exclusive</h1></a>
+                <a href=""><h2 style="font-size: 13px; padding-top: 24px;">Subscribe</h2></a>
+                <p style="font-size: 14px; padding: 18px 0;">Get 10% off your first order</p>
+                <div class="email-footer">
+                    <form action="">
+                        <input type="email" placeholder="Enter your email" name="email">
+                        <button type="submit"><i class="fa-regular fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <!-- Exclusive footer end -->
+
+            <!-- Support footer start -->
+            <div class="footer-item">
+                <h1>Support</h1><br>
+                <a href="">111 Bijoy sarani, Dhaka,<br>  DH 1515, Bangladesh.</a><br>
+                <a href="mailto: exclusive@gmail.com">exclusive@gmail.com</a><br>
+                <a href="Tel: +88015-88888-9999">+88015-88888-9999</a>
+            </div>
+            <!-- Support Footer end -->
+
+            <!-- Account footer end -->
+            <div class="footer-item">
+                <h1>Account</h1><br>
+                <a href="Account.html">My Account</a><br>
+                <a href="Login.html">Login / Register</a><br>
+                <a href="Cart.html">Cart</a><br>
+                <a href="WishList.html">Wishlist</a><br>
+                <a href="Index.html">Shop</a>
+            </div>
+            <!-- Account footer end -->
+
+            <!-- Quick Link footer start -->
+            <div class="footer-item">
+                <h1>Quick Link</h1><br>
+                <a href="">Privacy Policy</a><br>
+                <a href="">Terms Of Use</a><br>
+                <a href="">FAQ</a><br>
+                <a href="Contact.html">Contact</a>
+            </div>
+            <!-- Quick Link footer end -->
+
+            <!-- Download App Footer start -->
+            <div class="footer-item">
+                <h1>Download App</h1><br>
+                <p>Save $3 with App New User Only</p>
+                <div class="download-img">
+                    <div class="images1">
+                        <img src="Images/Qrcode 1.png" alt="Qrcode">
+                    </div>
+                    <div class="images2">
+                        <img src="Images/png-transparent-google-play-store-logo-google-play-app-store-android-wallets-text-label-logo.png" alt="google play store"><br>
+                        <img src="Images/download-appstore.png" alt="download-appstore">
+                    </div>
+                </div>
+                <div class="download-icon">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+            </div>
+            <!-- Download App Footer end -->
+        </div>
+        <div class="end-footer">
+            <p>
+                <i class="fa-regular fa-copyright" style="padding-right: 5px;"></i>
+                Copyright Rimel 2022. All right reserved
+            </p>
+        </div>
+    </footer>
+    <!-- Footer end -->
+</body>
+</html>
